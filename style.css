@@ -1,0 +1,56 @@
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+header {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url(images/header-image.png);
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 110vh;
+}
+
+nav img {
+  width: 150px;
+}
+
+#exampleFormControlInput1 {
+  background: transparent;
+  color: #fff;
+  width: 280px;
+  font-size: 16px;
+  backdrop-filter: blur(2px);
+}
+
+#exampleFormControlInput1::placeholder {
+  color: #fff;
+  font-size: 17px;
+}
+
+.line1 {
+  width: 100%;
+  height: 10px;
+  background: #272727;
+}
+
+.first-box {
+  background-color: black;
+}
+
+.faq {
+  background-color: rgb(51, 50, 50);
+}
+
+#faq :hover {
+  background-color: rgb(67, 66, 66);
+  transition: 0.2s;
+}
+
+#faq p {
+  background-color: rgb(51, 50, 50);
+}
+
+#faq p:hover {
+  background-color: rgb(51, 50, 50);
+}
